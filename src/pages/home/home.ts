@@ -13,7 +13,14 @@ export class HomePage {
   }
 
   pushPage(){
-    this.navCtrl.push('Detail')
+    this.navCtrl.push('Detail');
   }
 
+  showLoginPage() {
+    this.navCtrl.push('LoginPage');
+  }
+
+  showRegisterationPage() {
+    this.navCtrl.push('RegisterPage');
+  }
 }
